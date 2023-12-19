@@ -89,7 +89,7 @@ INSERT INTO Customer (customer_id, customer_name, email, phone_number) VALUES
 ALTER TABLE Booking ADD FOREIGN KEY (event_id) REFERENCES Event(event_id) ON DELETE CASCADE;
     
 INSERT INTO Booking (booking_id, customer_id, event_id, num_tickets, total_cost, booking_date) VALUES
-	(101, 119, 002, 5, 12495, '2023-10-10'),
+    (101, 119, 002, 5, 12495, '2023-10-10'),
     (102, 127, 010, 2, 3198, '2023-11-27'),
     (103, 114, 003, 4, 3996, '2023-11-23'),
     (104, 125, 011, 5, 37995, '2023-12-10'),
@@ -105,7 +105,7 @@ INSERT INTO Booking (booking_id, customer_id, event_id, num_tickets, total_cost,
     (114, 115, 001, 2, 1598, '2023-09-14'),
     (115, 130, 003, 2, 1998, '2023-11-24'),
     (116, 124, 001, 4, 3196, '2023-09-13'),
-	(117, 129, 009, 3, 2997, '2023-10-20'),
+    (117, 129, 009, 3, 2997, '2023-10-20'),
     (118, 120, 005, 3, 3597, '2023-09-21'),	
-	(119, 113, 001, 2, 1598, '2023-09-13'),
-	(120, 116, 011, 6, 45594, '2023-12-13');
+    (119, 113, 001, 2, 1598, '2023-09-13'),
+    (120, 116, 011, 6, 45594, '2023-12-13');
